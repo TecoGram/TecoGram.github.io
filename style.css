@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: calc(14rem * 3 + 5.5rem * 4);
+  margin: auto;
+}
+
+.pad-below {
+  margin-bottom: 6rem !important;
+}
+
+header .row {
+  align-items: center;
+  margin: 3.5rem 0 4.5rem;
+}
+
+.row {
+  display: flex;
+  /*ustify-content: space-between;*/
+}
+
+header .logo {
+  object-fit: contain;
+  height: 12.5rem;
+  width: 12.5rem;
+}
+
+#nuestro-respaldo, #contacto {
+  background-color: #0588cb;
+  color: #fff;
+  padding: 2rem 0;
+  margin-bottom: 3.5rem;
+}
+
+#nuestro-respaldo .col-1 h2, #contacto .col-1 h2 {
+  border-top: 0.2rem solid #fff;
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding-top: 0.2rem;
+
+}
+
+#servicios-laboratorio .col-1 h2 {
+  border-top: 0.2rem solid #0588cb;
+  color: #0588cb;
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding-top: 0.2rem;
+
+}
+
+
+.col-1 {
+  margin-right: 0 !important;
+}
+
+@media (min-width: 700px) {
+  html { font-size: 14px; }
+  .col-1, .col-2, .col-3 { margin: 0 3rem; }
+  .col-1 { width: calc(12.5rem * 1 + 3rem * 0); }
+  .col-2 { width: calc(12.5rem * 2 + 3rem * 1); }
+  .container { width: calc(12.5rem * 3 + 3rem * 4); }
+
+}
+
+@media (min-width: 810px) {
+  html { font-size: 15px; }
+  .col-1, .col-2, .col-3 { margin: 0 4rem; }
+  .col-1     { width: calc(12.5rem * 1 + 4rem * 0); }
+  .col-2     { width: calc(12.5rem * 2 + 4rem * 1); }
+  .container { width: calc(12.5rem * 3 + 4rem * 4); }
+
+}
+
+@media (min-width: 920px) {
+  html { font-size: 16px; }
+  .col-1, .col-2, .col-3 { margin: 0 4.2rem; }
+  .col-1     { width: calc(12.5rem * 1 + 4.2rem * 0); }
+  .col-2     { width: calc(12.5rem * 2 + 4.2rem * 1); }
+  .container { width: calc(12.5rem * 3 + 4.2rem * 4); }
+
+}
+
+
+@media (min-width: 1200px) {
+  html { font-size: 18px; }
+  .col-1, .col-2, .col-3 { margin: 0 5.5rem; }
+  .col-1     { width: calc(14rem * 1 + 5.5rem * 0); }
+  .col-2     { width: calc(14rem * 2 + 5.5rem * 1); }
+  .container { width: calc(14rem * 3 + 5.5rem * 4); }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 699px) {
+  html { font-size: 14px; }
+  .row { display: block; }
+  .col-1, .col-2, .col-3 { margin: 0 2.5rem !important; }
+  .container { width: auto; min-width: 20rem; }
+  header, nav, footer { text-align: center; }
+  header p { width: auto; max-width: 23em; margin: auto; }
+  .col-1 h2 { margin: 6rem 0 2.5rem !important; width: 12rem; }
+  #nuestro-respaldo .col-1 h2 { margin: 0 !important; }
+  #contacto .col-1 h2 { margin: 0 !important; }
+  header img { width: 100% }
+}
+
+@media (min-width: 350px) {
+  html { font-size: 15px; }
+  .col-1, .col-2, .col-3 { margin: 0 2.75rem; }
+}
+
+@media (min-width: 500px) {
+  html { font-size: 16px; }
+  .col-1, .col-2, .col-3 { margin: 0 3rem; }
+}
+
+.last-section {
+  margin-bottom: 0 !important;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
