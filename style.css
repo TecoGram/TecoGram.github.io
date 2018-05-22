@@ -29,14 +29,14 @@ header .logo {
   width: 12.5rem;
 }
 
-#nuestro-respaldo, #contacto {
+#sobre-nosotros, #servicios-laboratorio {
   background-color: #0588cb;
   color: #fff;
   padding: 2rem 0;
   margin-bottom: 3.5rem;
 }
 
-#nuestro-respaldo .col-1 h2, #contacto .col-1 h2 {
+#sobre-nosotros .col-1 h2, #servicios-laboratorio .col-1 h2 {
   border-top: 0.2rem solid #fff;
   font-size: 0.95rem;
   font-weight: bold;
@@ -44,7 +44,7 @@ header .logo {
 
 }
 
-#servicios-laboratorio .col-1 h2 {
+#productos .col-1 h2, #contacto .col-1 h2 {
   border-top: 0.2rem solid #0588cb;
   color: #0588cb;
   font-size: 0.95rem;
