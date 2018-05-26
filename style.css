@@ -160,3 +160,31 @@ header .logo {
     width: 100% !important;
     height: 100% !important;
 }
+
+/* Tecnicas */
+
+nav {
+    min-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.tecnica-row {
+    margin-bottom: 2rem;
+}
+
+.tecnica-row a {
+    display: block;
+    color: inherit;
+}
+
+.byline {
+    color: #9a9a9a;
+    font-size: 0.8rem;
+}
+      
+h2 {
+    font-size: 1.15rem;
+    margin: 3em 0 1em;
+}
