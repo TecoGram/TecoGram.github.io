@@ -10,6 +10,7 @@ html {
 
 a.photo {
   display: block;
+  text-align: center;
 }
 
 p, a.photo, img, ol, ul {
@@ -73,9 +74,9 @@ header .logo {
 }
 
 .col-2 img {
-  display: block;
-  max-width: 100%;
+  max-width: 66%;
 }
+
 @media (min-width: 700px) {
   html { font-size: 14px; }
   .col-1, .col-2, .col-3 { margin: 0 3rem; }
