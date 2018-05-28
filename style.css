@@ -14,7 +14,7 @@ a.photo {
   text-align: center;
 }
 
-p, a.photo, img, ol, ul {
+p, table, a.photo, img, ol, ul {
   margin-bottom: 1.2em;
 }
 
@@ -157,6 +157,35 @@ header .logo {
     padding-bottom: 75%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
+}
+
+table.horarios {
+  margin-left: 1rem;
+}
+
+ul.phonenumber {
+ list-style-type: none;
+}
+
+ul.phonenumber li img {
+  height: 66px;
+  width: 66px;
+  vertical-align: middle;
+}
+
+ul.phonenumber li {
+  line-height: 65px;
+  height: 65px;
+}
+
+td:first-child img {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+table.horarios td:first-child {
+  text-align:right;
+  padding-right: 2rem;
 }
 
 .google-maps iframe {
