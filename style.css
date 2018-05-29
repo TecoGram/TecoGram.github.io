@@ -74,7 +74,7 @@ header .logo {
   margin-right: 0 !important;
 }
 
-.col-2 img {
+a.photo img, img.title {
   max-width: 66%;
 }
 
@@ -159,28 +159,40 @@ header .logo {
     overflow: hidden;
 }
 
-table.horarios {
-  margin-left: 1rem;
+a:link, a:visited {
+  color: #0e71b0;
 }
 
 ul.phonenumber {
  list-style-type: none;
+ margin-left: 2rem;
 }
 
 ul.phonenumber li img {
-  height: 66px;
-  width: 66px;
-  vertical-align: middle;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 !important;
+  opacity: 0.78; 
+}
+
+ul.phonenumber li a {
+  padding-left: 0.3rem;
+  line-height: 1rem;
+}
+
+span.number {
+  line-height: 1rem;
 }
 
 ul.phonenumber li {
-  line-height: 65px;
-  height: 65px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2rem;
+
 }
 
-td:first-child img {
-  height: 3.5rem;
-  width: 3.5rem;
+table.horarios {
+  margin-left: 1rem;
 }
 
 table.horarios td:first-child {
