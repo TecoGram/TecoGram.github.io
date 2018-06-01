@@ -78,6 +78,19 @@ a.photo img, img.title {
   max-width: 66%;
 }
 
+p.cta {
+    margin-bottom: 2.6em;
+}
+
+p.cta a::after {
+  content: " →";
+}
+
+p.cta a {
+  text-decoration: none;
+  color: #0588cb;
+}
+
 @media (min-width: 700px) {
   html { font-size: 14px; }
   .col-1, .col-2, .col-3 { margin: 0 3rem; }
