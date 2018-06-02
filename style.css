@@ -107,6 +107,8 @@ p.cta a {
   .col-2     { width: calc(12.5rem * 2 + 4rem * 1); }
   .container { width: calc(12.5rem * 3 + 4rem * 4); }
 
+  .tecnica-item { display: inline-block; width: 45%; vertical-align:top;  }
+  .tecnica-item:last-child { margin-left: 4% }
 }
 
 @media (min-width: 920px) {
@@ -263,11 +265,11 @@ nav .col-2 a {
   width: 300px;
 }
 
-.tecnica-row {
+.tecnica-item {
     margin-bottom: 2rem;
 }
 
-.tecnica-row a {
+.tecnica-item a {
     display: block;
     color: inherit;
 }
